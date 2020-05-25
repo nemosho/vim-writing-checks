@@ -63,7 +63,6 @@ function! InsertWritingChecks()
 	call InsertCheckbox("抽象的な表現ではなく、具体的な事実を書いている(例:いい会社->5年間、社員が一人も辞めていない会社)")
 	call InsertCheckbox("二重表現に気をつける(例:各エリアごとに->各エリアに/エリアごとに)")
 	call InsertCheckbox("「なります」を、物体や物事が変化する「〜に成る」という意味以外に使用していない(例:帰社は16時になります->帰社は16時でございます)")
-	execute ":normal o"
 	call DrawLine()
 endfunction
 
