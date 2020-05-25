@@ -28,6 +28,7 @@ function! InsertWritingChecks()
 	call InsertChapter("目次")
 	call InsertCheckbox("目次で文章の地図を示している")
 	call InsertCheckbox("途中に現在位置を確認できる情報を入れている")
+	execute ":normal o"
 	call InsertChapter("明快に言い切るべきこと")
 	call InsertCheckbox("現段階でわかったこと")
 	call InsertCheckbox("考察できること")
