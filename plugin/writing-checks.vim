@@ -1,12 +1,12 @@
 function! InsertCheckbox(perspective)
 	let perspective = "[ ] " . a:perspective
 	execute ":normal o" . perspective
-	execute ":normal o"
 endfunction
 
 function! InsertChapter(title)
 	let title = "### " . a:title
 	execute ":normal o" . title
+	execute ":normal o"
 endfunction
 
 function! DrawLine()
